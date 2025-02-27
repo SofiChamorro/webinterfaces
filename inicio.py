@@ -29,6 +29,8 @@ if st.button('Quien es Devon?'):
   st.write('Aun no defino que mostrar xd')
 else:
   st.write('Porque no presionas')
+with st.sidebar:
+  st.subheader("configura la modalidad")
   
     
     
