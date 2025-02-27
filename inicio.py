@@ -24,6 +24,12 @@ with col2:
     st.write('Hablaremos sobre ella')
   if modo== 'Brian':
     st.write('Su nombre real es Paul')
+st.subheader("Botones")
+if st.button('Quien es Devon?'):
+  st.write('Aun no defino que mostrar xd')
+else:
+  st.write('Porque no presionas')
+  
     
     
   
