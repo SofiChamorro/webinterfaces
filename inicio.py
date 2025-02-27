@@ -31,6 +31,8 @@ else:
   st.write('Porque no presionas')
 with st.sidebar:
   st.subheader("configura la modalidad")
+  mod_radio= st.radio(
+    ("Devon","Toreto","Paul")
   
     
     
