@@ -19,11 +19,11 @@ with col2:
   st.subheader("Segunda columna")
   modo= st.radio("A que personaje conoces",('Toreto','Suki','Brian'))
   if modo== 'Toreto':
-    st.write(´Es el personaje principal')
+    st.write('Es el personaje principal')
   if modo== 'Suki':
-    st.write(´Hablaremos sobre ella')
+    st.write('Hablaremos sobre ella')
   if modo== 'Brian':
-    st.write(´Su nombre real es Paul')
+    st.write('Su nombre real es Paul')
     
     
   
