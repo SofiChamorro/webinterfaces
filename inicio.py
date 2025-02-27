@@ -8,7 +8,7 @@ st.image(image)
 texto= st.text_input('Escribe algo','Text')
 st.write('El texto escrito es','Text')
 st.subheader("Columnas")
-col1,col2= st.colums(2)
+col1,col2= st.columns(2)
 with col1:
   st.subheader("Primera columna")
   st.write("Conoces este carro?")
